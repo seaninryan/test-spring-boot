@@ -8,6 +8,11 @@ To run it
 docker run -p 8080:8080 -d test-spring-boot
 ```
 
+To run it with a profile
+```bash
+docker run -p 8080:8080 -d -e "SPRING_PROFILES_ACTIVE=PRO" e52768fd064f
+```
+
 To look at the log output
 ```bash
 docker logs <container-id>
