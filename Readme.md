@@ -25,4 +25,7 @@ To find the ip address it's running on (mac only)
 docker-machine ls
 ```
 
-Next - try docker building with maven
+Build docker image with maven
+```bash
+mvn package docker:build
+```
